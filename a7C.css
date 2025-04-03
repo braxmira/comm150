@@ -1,0 +1,62 @@
+/* Set background color and text color */
+body {
+    background: url('graphics/90sback.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(85, 158, 183);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style the title */
+h1 {
+    font-size: 75px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    white-space: nowrap;
+}
+
+/* Style the intro paragraph */
+#intro {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    width: 600px;
+}
+
+/* Style the menu links */
+#menu {
+    position: absolute;
+    top: 225px;
+    left: 50px;
+}
+
+#menu a {
+    display: block;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 50px; /* Increased spacing between links */
+}
+
+/* Position the image farther to the right */
+#rx7 {
+    position: absolute;
+    top: 19px;
+    left: 600px; /* Moved farther right */
+    width: 550px;
+}
+
+#gtr {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    width: 500px;
+}
+
+#brands {
+    position: absolute;
+    top: 500px; /* Positioned below the GTR */
+    left: 90px; /* Aligned with the GTR */
+    width: 600px;
+}
